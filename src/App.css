@@ -13,7 +13,7 @@
 }
 
 .card {
-  width: 450px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,5 +39,16 @@
   background-color: #2F58CD;
   color: #FFFFFF;
   cursor: pointer;
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+  .App {
+    padding: 20px;
+  }
+  .card {
+    width: 100%;
+  }
 }
 

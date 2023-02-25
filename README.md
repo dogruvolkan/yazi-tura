@@ -1,4 +1,3 @@
-
 # React yazı tura :
 
 ### Proje özeti :
@@ -10,21 +9,13 @@
 - [x] yazı tura
 - [x] yazı tura ve toplam atışı tutma
 - [ ] yazı tura animasyon ekleme
-- [ ] responsive tasarım
-
+- [x] responsive tasarım
 
 ### Projede kullanılan Teknolojiler ve Metotlar :
 
-> Projede useState, useEffect hook kullanıldı.
+> Projede useState, hook kullanıldı.
 > stilendirme için herhangi bir kütüphane kullanılmadı pure css ile stilendirme yapıldı.
 > deploy için vercel kullanıldı.
-
-
-### proje font ve renk:
-
-(font-family: 'Roboto', sans-serif;)
-(background-color: #FFFFFF;)
-(button background-color: #2F58CD;)
 
 ### Proje Adresi
 
@@ -32,5 +23,5 @@
 
 ### Projenin Görselleri:
 
-![ekran görüntüsü](src/mobile.png)
-![ekran görüntüsü](src/desktop.png)
+![ekran görüntüsü](src/img/mobile.png)
+![ekran görüntüsü](src/img/desktop.png)

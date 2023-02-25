@@ -12,9 +12,8 @@ const YaziTura = () => {
 
   const handleClick = () => {
     const rndNumber = Math.floor(Math.random() * 2);
-    console.log(rndNumber);
     if (rndNumber === 0) {
-      setYaziTura("Yazi");
+      setYaziTura("Yazı");
       setYaziTuraImg(Yazi);
       setYazi(++yazi);
     } else if (rndNumber === 1) {
@@ -22,6 +21,7 @@ const YaziTura = () => {
       setYaziTuraImg(Tura);
       setTura(++tura);
     }
+
     setShowImg(true);
     setToplam(++toplam);
   };
@@ -31,7 +31,7 @@ const YaziTura = () => {
       {showImg ? (
         <>
           <div className="card-image">
-            <img alt="yazi-tura" src={yaziTuraImg} />
+            <img  alt="yazi-tura" src={yaziTuraImg} />
           </div>
           <div className="card-result">{yaziTura}</div>
           <div className="card-sum">
